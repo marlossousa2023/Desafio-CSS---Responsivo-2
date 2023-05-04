@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 80px 76px;
+    cursor: pointer;
+}
+
+.link-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    width: 120px;
+    height: 29px;
+    color: #989D9C;
+    margin: 44px 0px 827px 76px;
+}
+
+.link-button {
+    background: #665AE1;
+    margin-left: 23px;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    border-radius: 20.5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+img {
+    display: inline-block;
+    position: absolute;
+    width: 568px;
+    height: 500px;
+    margin: 25px 747px 183px 50px;
+}
+
+.container-right {
+    display: inline-block;
+    margin: 0px 146px 372px 779px;
+
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+}
+
+.explore-button {
+    width: 239px;
+    height: 64px;
+    background: #ADFF00;
+    border-radius: 20.5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    border: none;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+
+    img {
+        display: block;
+        margin: 140px 22px 334px 72px;
+        width: 400px;
+        height: 350px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .container-right {
+        display: relative;
+        margin: 490px 63px 7px 64px;
+
+    }
+
+    h1 {
+
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    h2 {
+        width: 232px;
+        height: 23px;
+        line-height: 37px;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 79px;
+        margin-right: 79px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .explore-button {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        margin: 32px 76px 133px 76px;
+        cursor: pointer;
+
+    }
+}
